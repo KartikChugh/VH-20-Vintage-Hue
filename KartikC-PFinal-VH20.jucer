@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="lNfHe2" name="KartikC-PFinal-VH20" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1" pluginManufacturerCode="Mu45" pluginManufacturer="Musi45"
+              pluginName="VH-20 Vintage Hues" pluginFormats="buildStandalone,buildVST3"
+              pluginVST3Category="Delay,Distortion,Filter,Fx">
+  <MAINGROUP id="Ms9OFl" name="KartikC-PFinal-VH20">
+    <GROUP id="{641DC660-93F7-BDA2-55BA-5228C4E864D3}" name="Mu45FilterCalc">
+      <FILE id="fZml70" name="Mu45FilterCalc.cpp" compile="1" resource="0"
+            file="Source/Mu45FilterCalc/Mu45FilterCalc.cpp"/>
+      <FILE id="IeIXxK" name="Mu45FilterCalc.h" compile="0" resource="0"
+            file="Source/Mu45FilterCalc/Mu45FilterCalc.h"/>
+    </GROUP>
+    <GROUP id="{C859F91E-35D0-1CEE-789D-F4D38112E0EC}" name="Mu45LFO">
+      <FILE id="FFAkaT" name="Mu45LFO.cpp" compile="1" resource="0" file="Source/Mu45LFO/Mu45LFO.cpp"/>
+      <FILE id="w1RLfg" name="Mu45LFO.h" compile="0" resource="0" file="Source/Mu45LFO/Mu45LFO.h"/>
+    </GROUP>
+    <GROUP id="{723D9591-EA92-B133-28B0-FEEA57F60EE9}" name="Source">
+      <FILE id="IVlKYU" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="pkZUGC" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="qfX7T3" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="C9tdlk" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <GROUP id="{717D2020-5105-438E-91D8-F2524125380A}" name="StkLite-4.6.2">
+      <FILE id="kicUpX" name="BiQuad.cpp" compile="1" resource="0" file="Source/StkLite-4.6.2/BiQuad.cpp"/>
+      <FILE id="VONwHe" name="BiQuad.h" compile="0" resource="0" file="Source/StkLite-4.6.2/BiQuad.h"/>
+      <FILE id="uK4BIt" name="Delay.cpp" compile="1" resource="0" file="Source/StkLite-4.6.2/Delay.cpp"/>
+      <FILE id="hFMluT" name="Delay.h" compile="0" resource="0" file="Source/StkLite-4.6.2/Delay.h"/>
+      <FILE id="mNkdfc" name="DelayA.cpp" compile="1" resource="0" file="Source/StkLite-4.6.2/DelayA.cpp"/>
+      <FILE id="d5cmQD" name="DelayA.h" compile="0" resource="0" file="Source/StkLite-4.6.2/DelayA.h"/>
+      <FILE id="Bk5gwE" name="DelayL.cpp" compile="1" resource="0" file="Source/StkLite-4.6.2/DelayL.cpp"/>
+      <FILE id="LCmcDJ" name="DelayL.h" compile="0" resource="0" file="Source/StkLite-4.6.2/DelayL.h"/>
+      <FILE id="hgcgCH" name="Filter.h" compile="0" resource="0" file="Source/StkLite-4.6.2/Filter.h"/>
+      <FILE id="zqpshK" name="Fir.cpp" compile="1" resource="0" file="Source/StkLite-4.6.2/Fir.cpp"/>
+      <FILE id="Z2baag" name="Fir.h" compile="0" resource="0" file="Source/StkLite-4.6.2/Fir.h"/>
+      <FILE id="spn3FK" name="FormSwep.cpp" compile="1" resource="0" file="Source/StkLite-4.6.2/FormSwep.cpp"/>
+      <FILE id="ckJm4k" name="FormSwep.h" compile="0" resource="0" file="Source/StkLite-4.6.2/FormSwep.h"/>
+      <FILE id="i4fbWL" name="Iir.h" compile="0" resource="0" file="Source/StkLite-4.6.2/Iir.h"/>
+      <FILE id="eVUcKn" name="OnePole.cpp" compile="1" resource="0" file="Source/StkLite-4.6.2/OnePole.cpp"/>
+      <FILE id="i9X6M1" name="OnePole.h" compile="0" resource="0" file="Source/StkLite-4.6.2/OnePole.h"/>
+      <FILE id="Egzt7N" name="OneZero.cpp" compile="1" resource="0" file="Source/StkLite-4.6.2/OneZero.cpp"/>
+      <FILE id="H2hcMF" name="OneZero.h" compile="0" resource="0" file="Source/StkLite-4.6.2/OneZero.h"/>
+      <FILE id="Cg7nKc" name="PoleZero.cpp" compile="1" resource="0" file="Source/StkLite-4.6.2/PoleZero.cpp"/>
+      <FILE id="NCkoDU" name="PoleZero.h" compile="0" resource="0" file="Source/StkLite-4.6.2/PoleZero.h"/>
+      <FILE id="FBZZwN" name="Stk.cpp" compile="1" resource="0" file="Source/StkLite-4.6.2/Stk.cpp"/>
+      <FILE id="H1YMoV" name="Stk.h" compile="0" resource="0" file="Source/StkLite-4.6.2/Stk.h"/>
+      <FILE id="kQzMOb" name="TapDelay.cpp" compile="1" resource="0" file="Source/StkLite-4.6.2/TapDelay.cpp"/>
+      <FILE id="WaQUmM" name="TapDelay.h" compile="0" resource="0" file="Source/StkLite-4.6.2/TapDelay.h"/>
+      <FILE id="QkFiub" name="TwoPole.cpp" compile="1" resource="0" file="Source/StkLite-4.6.2/TwoPole.cpp"/>
+      <FILE id="arpO3f" name="TwoPole.h" compile="0" resource="0" file="Source/StkLite-4.6.2/TwoPole.h"/>
+      <FILE id="tWyJW7" name="TwoZero.cpp" compile="1" resource="0" file="Source/StkLite-4.6.2/TwoZero.cpp"/>
+      <FILE id="QmUYPa" name="TwoZero.h" compile="0" resource="0" file="Source/StkLite-4.6.2/TwoZero.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="KartikC-PFinal-VH20"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="KartikC-PFinal-VH20"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
